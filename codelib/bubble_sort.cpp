@@ -1,5 +1,5 @@
-/*
- *Ã¿´ÎÑ­»·±È½Ï°Ñ×îĞ¡µÄÊı½»»»µ½×îÇ°Ãæ,Ñ­»·´ÎÊıÎªn-1,Ê±¼ä¸´ÔÓ¶ÈÎªO(n^2)
+ï»¿/*
+ *æ¯æ¬¡å¾ªç¯æ¯”è¾ƒæŠŠæœ€å°çš„æ•°äº¤æ¢åˆ°æœ€å‰é¢,å¾ªç¯æ¬¡æ•°ä¸ºn-1,æ—¶é—´å¤æ‚åº¦ä¸ºO(n^2)
  *
  */
 void swap(vector<int>& arr, int i, int j){
@@ -7,7 +7,7 @@ void swap(vector<int>& arr, int i, int j){
     arr[i] = arr[j];
     arr[j] = temp;
 }
-//Ã°ÅİÅÅĞò
+//å†’æ³¡æ’åº
 void bubbleSort(vector<int>& arr){
     if(arr.size() == 0)
         return;
@@ -19,7 +19,7 @@ void bubbleSort(vector<int>& arr){
         }
     }
 
-    //´òÓ¡ÅÅĞòºóÊı×é
+    //æ‰“å°æ’åºåæ•°ç»„
     for(int i = 0; i < n; i++)
         cout << arr[i] << ' ';
     cout << endl;
