@@ -1,3 +1,7 @@
+/*
+ *求最大公约数
+ *最大公倍数 = a * b / 最大公约数
+ */
 int gcd(int a, int b){
     if (a==0) 
 		return 1;
@@ -10,3 +14,4 @@ int gcd(int a, int b){
     }
     return a;
 }
+
